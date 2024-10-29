@@ -1,0 +1,2 @@
+use("examen")
+db.products.find({categoria:"Verduras"})

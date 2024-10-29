@@ -1,0 +1,2 @@
+use("examen")
+db.products.find({fecha_vencimiento:{$lte:new Date(2024,10,30)}})

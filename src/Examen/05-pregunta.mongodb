@@ -1,0 +1,5 @@
+use("examen")
+db.products.find({ $and: [{ stock: {$gte: 10}}, {stock: {$lte: 30}} ]})
+db.products.find({
+  stock: { $gte: 20, $lte: 30 }
+});
